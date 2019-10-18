@@ -1,44 +1,97 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!-->
 <html lang="en">
-<!--<![endif]-->
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>
-        To Do List
-    </title>
-    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggO
-     yR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>my todo list</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
-
-
 </head>
 
 <body>
     <div class="container">
-    
         <h1>TO DO LIST</h1>
-
-    <div class="row">
-
-        <div class="col-12 col-md-10">
-            <input class="form-control" type="text" placeholder="what you want to do">
+        <div class="row">
+            <div class="col-12 col-md-10">
+                <input class="form-control form-control-sm" type="text" placeholder="what do you want to do">
+            </div>
+            <div class="col-12 col-md-2">
+                <button type="button" class="btn btn-success">Add</button>
+            </div>
         </div>
-        <div class="col-12 col-md-2">
-            <button type="button" class="btn btn-success">Add</button>
+        <div class="row d-none d-md-block">
+            <div class="col">
+                Tasks still remaining 2
+            </div>
+
+        </div>
+        <div class="row taskRow">
+            <div class="col-12 col-md-6">
+                Distribution of books
+            </div>
+
+            <div class="col-12 col-md-3">
+                <button type="button" class="btn btn-primary">Done</button>
+
+            </div>
+            <div class="col-12 col-md-3">
+                <button type="button" class="btn btn-danger">Delete</button>
+            </div>
+        </div>
+        <div class="row taskRow">
+            <div class="col-12 col-md-6">
+                Update and submit order
+            </div>
+
+            <div class="col-12 col-md-3">
+                <button type="button" class="btn btn-primary">Done</button>
+            </div>
+            <div class="col-12 col-md-3">
+                <button type="button" class="btn btn-danger">Delete</button>
+            </div>
+        </div>
+        <div class="row taskRow">
+            <div class="col-12 col-md-6">
+                Prepare individual order
+            </div>
+
+            <div class="col-12 col-md-3">
+                <button type="button" class="btn btn-primary">Done</button>
+            </div>
+            <div class="col-12 col-md-3">
+                <button type="button" class="btn btn-danger">Delete</button>
+            </div>
+        </div>
+        <div class="row taskRow">
+            <div class="col-12 col-md-6">
+                deliver and collect money
+            </div>
+
+            <div class="col-12 col-md-3">
+                <button type="button" class="btn btn-primary">Done</button>
+            </div>
+            <div class="col-12 col-md-3">
+                <button type="button" class="btn btn-danger">Delete</button>
+            </div>
+        </div>
+
+        <div class="row taskRow">
+            <div class="col-12 col-md-6">
+                submit invoice
+            </div>
+
+            <div class="col-12 col-md-3">
+                <button type="button" class="btn btn-primary">Done</button>
+            </div>
+            <div class="col-12 col-md-3">
+                <button type="button" class="btn btn-danger">Delete</button>
+            </div>
         </div>
     </div>
 
- </div>
 
 
 </body>
